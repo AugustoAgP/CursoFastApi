@@ -3,6 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # Decoretor
+# criando o primeiro andpoint
 @app.get('/')
 async def raiz():
     return {"msg": "FastAPI na Geek University"}
